@@ -8,7 +8,7 @@ namespace AdventOfCode
     {
         public static void Part1()
         {
-            int input = 368078;
+            int input = 277678;
 
             int square = 1;
             while (input > square * square)
@@ -51,7 +51,7 @@ namespace AdventOfCode
         public static void Part2()
         {
             // init work
-            int input = 368078;
+            int input = 277678;
             int centerX = 500, centerY = 500;
             int[,] spiral = new int[2 * centerX, 2 * centerY];
             spiral[centerX, centerY] = 1;

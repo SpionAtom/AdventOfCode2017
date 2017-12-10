@@ -17,7 +17,9 @@ namespace Advent_of_Code
             //AdventOfCode.Day5.Part1();
             //AdventOfCode.Day5.Part2();
             //AdventOfCode.Day6.Part1();
-            AdventOfCode.Day6.Part2();
+            //AdventOfCode.Day6.Part2();
+            AdventOfCode.Day7.Part1();
+            AdventOfCode.Day7.Part2();
 
         }
     }

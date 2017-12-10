@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Text;
 using System.Linq;
 
 namespace AdventOfCode
@@ -63,7 +62,7 @@ namespace AdventOfCode
             }
             while (history.Last() != last);
 
-            Console.WriteLine($"Solution Day 6 part 1: {loopCount}");
+            Console.WriteLine($"Solution Day 6 part 2: {loopCount}");
         }
     }
 }

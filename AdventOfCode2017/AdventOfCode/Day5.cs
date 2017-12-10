@@ -11,7 +11,6 @@ namespace AdventOfCode
             string readText = File.ReadAllText("data/Day5_input.txt");
             string[] lines = readText.Split(new[] { Environment.NewLine },
                                                     StringSplitOptions.None);
-
             int[] numbers = lines.Select(s => int.Parse(s)).ToArray();
 
             int currentPosition = 0;
@@ -31,7 +30,6 @@ namespace AdventOfCode
             string readText = File.ReadAllText("data/Day5_input.txt");
             string[] lines = readText.Split(new[] { Environment.NewLine },
                                                     StringSplitOptions.None);
-
             int[] numbers = lines.Select(s => int.Parse(s)).ToArray();
 
             int currentPosition = 0;
@@ -48,9 +46,7 @@ namespace AdventOfCode
                 {
                     numbers[currentPosition]--;
                     currentPosition += numbers[currentPosition] + 1;
-                }
-                
-                
+                }                
             }
 
             Console.WriteLine($"Solution Day 5 part 2: {jumps}");

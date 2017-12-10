@@ -1,8 +1,8 @@
 ﻿using System;
-using System.Linq;
-using System.IO;
-using System.Text.RegularExpressions;
 using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace AdventOfCode
 {

@@ -12,7 +12,11 @@ namespace Advent_of_Code
             //AdventOfCode.Day2.Part2();
             //AdventOfCode.Day3.Part1();
             //AdventOfCode.Day3.Part2();
-            AdventOfCode.Day4.Part1();
+            //AdventOfCode.Day4.Part1();
+            //AdventOfCode.Day4.Part2();
+            AdventOfCode.Day5.Part1();
+            AdventOfCode.Day5.Part2();
+
         }
     }
 }

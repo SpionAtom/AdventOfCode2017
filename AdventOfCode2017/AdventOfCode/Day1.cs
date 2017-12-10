@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace AdventOfCode
 {
@@ -15,7 +13,7 @@ namespace AdventOfCode
             {
                 if (sequence[i] == sequence[(i + 1) % sequence.Length])
                 {
-                    sum += Convert.ToInt32(sequence[i].ToString());
+                    sum += int.Parse(sequence[i].ToString());
                 }
             }
             Console.WriteLine($"Solution Day 1 part 1: {sum}");
@@ -30,7 +28,7 @@ namespace AdventOfCode
             {
                 if (sequence[i] == sequence[(i + sequence.Length / 2) % sequence.Length])
                 {
-                    sum += Convert.ToInt32(sequence[i].ToString());
+                    sum += int.Parse(sequence[i].ToString());
                 }
             }
             Console.WriteLine($"Solution Day 1 part 2: {sum}");

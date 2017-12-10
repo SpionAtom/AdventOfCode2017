@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text;
 
 namespace AdventOfCode
 {
@@ -21,7 +19,7 @@ namespace AdventOfCode
                 string[] numbers = line.Split(',');
                 foreach (string number in numbers)
                 {
-                    int value = Convert.ToInt32(number.ToString());
+                    int value = int.Parse(number.ToString());
                     if (value < lowest)
                     {
                         lowest = value;
@@ -52,7 +50,7 @@ namespace AdventOfCode
                 string[] numbers = line.Split(',');
                 for (int i = 0; i < numbers.Length - 1; i++)
                 {
-                    value1 = Convert.ToInt32(numbers[i].ToString());
+                    value1 = int.Parse(numbers[i].ToString());
                     for (int j = i + 1; j < numbers.Length; j++)
                     {
                         value2 = Convert.ToInt32(numbers[j].ToString());

@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace AdventOfCode
 {
-    public static class Day8
+    public static class Day08
     {
         private static Input[] inputs;
         private static List<Register> registers;

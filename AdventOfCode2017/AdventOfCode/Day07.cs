@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 
 namespace AdventOfCode
 {
-    public class Day7
+    public class Day07
     {
         private static Input[] inputs;        
         public static string Part1(bool output = true)

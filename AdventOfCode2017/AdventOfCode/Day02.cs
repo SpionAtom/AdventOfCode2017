@@ -3,7 +3,7 @@ using System.IO;
 
 namespace AdventOfCode
 {
-    public class Day2
+    public class Day02
     {
         public static void Part1()
         {

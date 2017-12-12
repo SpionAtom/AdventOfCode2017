@@ -2,7 +2,7 @@
 
 namespace AdventOfCode
 {
-    public class Day1
+    public class Day01
     {        
         public static void Part1()
         {

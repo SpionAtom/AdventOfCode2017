@@ -24,10 +24,10 @@ namespace Advent_of_Code
             //AdventOfCode.Day08.Part2();
             //AdventOfCode.Day09.Part1();
             //AdventOfCode.Day09.Part2();
-            AdventOfCode.Day10.Part1();
-            AdventOfCode.Day10.Part2();
-            //AdventOfCode.Day11.Part1();
-            //AdventOfCode.Day11.Part2();
+            //AdventOfCode.Day10.Part1();
+            //AdventOfCode.Day10.Part2();
+            AdventOfCode.Day11.Part1();
+            AdventOfCode.Day11.Part2();
             //AdventOfCode.Day12.Part1();
             //AdventOfCode.Day12.Part2();
             //AdventOfCode.Day13.Part1();

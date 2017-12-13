@@ -36,8 +36,6 @@ namespace AdventOfCode
                 Console.WriteLine(string.Join(",", list));
                 skipSize++;
             }
-
-            int product = 0;
             
             Console.WriteLine($"Solution Day 10 part 1: {list[0] * list[1]}");
         }

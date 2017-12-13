@@ -55,7 +55,7 @@ namespace AdventOfCode
                 }
             }
 
-            Console.WriteLine($"x {x} y {y} -> distance: {distance}  max distance: {maxDistance}");
+            Console.WriteLine($"Solution Day 12 part 1/2: x {x} y {y} -> final distance: {distance}  max distance: {maxDistance}");
         }
 
         public static void Part2()

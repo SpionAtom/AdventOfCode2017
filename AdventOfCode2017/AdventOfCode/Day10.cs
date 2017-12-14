@@ -98,7 +98,7 @@ namespace AdventOfCode
                 {
                     block ^= list[b * 16 + i];
                 }
-                knotHash += block.ToString("X");
+                knotHash += block.ToString("X").PadLeft(2, '0'); ;
             }
             Console.WriteLine($"Solution Day 10 part 2: {knotHash}");
         }
